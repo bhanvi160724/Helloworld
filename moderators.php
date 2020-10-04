@@ -13,7 +13,7 @@ function check_pass($i,$dbconfig,$password){
 	return $query->num_rows;
 }
 
-
+print("heyy")
 if(!isset($_SESSION['email'])||$_SESSION['admin']!=1)
 header("location:admin.php");
 if($_SERVER['REQUEST_METHOD']=="POST")
