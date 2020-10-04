@@ -13,7 +13,8 @@ function check_pass($i,$dbconfig,$password){
 	return $query->num_rows;
 }
 
-
+#bhanvi
+#thank you team for handling us
 if(!isset($_SESSION['email'])||$_SESSION['admin']!=1)
 header("location:admin.php");
 if($_SERVER['REQUEST_METHOD']=="POST")
@@ -140,7 +141,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 <br>
 <br><form action="moderators.php" method="post">
 	<div class="row">
-	
+	print ("heloo")
 	<div class="col-sm-1"></div>
 		<div class="col-sm-1">
   <div class="form-group">
